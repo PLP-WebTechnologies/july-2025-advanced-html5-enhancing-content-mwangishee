@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Enhanced Form</title>
+ 
+</head>
+<body>
+  <header>
+    <h1>Week 2 Assignment</h1>
+    <p>This form collects basic user information..</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Table</h2>
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Course</th>
+        </tr>
+        <tr>
+          <td>Sheila</td>
+          <td>Frontend Dev</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Images</h2>
+            <img src="mountain.jpg" alt="mountain" width="500" height="300">
+      <h2>Media</h2>
+      <video width="320" height="240" controls>
+        <source src="group video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section>
+      <h2> Registration Form</h2>
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required autocomplete="name" />
+        <br /><br />
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required autocomplete="email" />
+        <br /><br />
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter a password" required />
+        <br /><br />
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" required />
+        <br /><br />
+        <label for="country">Country</label>
+        <select id="country" required>
+          <option value="">Select Country</option>
+          <option value="kenya">Kenya</option>
+          <option value="uganda">Uganda</option>
+          <option value="tanzania">Tanzania</option>
+        </select>
+        <br /><br />
+        <label for="bio">Short Bio</label>
+        <textarea id="bio" placeholder="Tell us about yourself..." rows="4"></textarea>
+        <br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Thank you</p>
+  </footer>
+</body>
+</html>
